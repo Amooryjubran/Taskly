@@ -12,7 +12,7 @@ export interface Column {
   id: string;
   board_id: string;
   title: string;
-  sort_order: string;
+  sort_order: number;
   created_at: string;
   user_id: string;
 }
